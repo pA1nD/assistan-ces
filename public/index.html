@@ -38,4 +38,24 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCaNj4bmYoGCTHNTmIpAX2yMkeBhidg9Dc",
+      authDomain: "ces-web-app-1559243428201.firebaseapp.com",
+      databaseURL: "https://ces-web-app-1559243428201.firebaseio.com",
+      projectId: "ces-web-app-1559243428201",
+      storageBucket: "ces-web-app-1559243428201.appspot.com",
+      messagingSenderId: "18328206332",
+      appId: "1:18328206332:web:f7f9e88bb266cf0b"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
 </html>
