@@ -1,4 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project also contains firebase, please do `firebase init`;
+
 
 ## Available Scripts
 
