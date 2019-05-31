@@ -114,8 +114,8 @@ const Events = ({ match }) => {
   const database = useContext(FirebaseContext).database();
 
   const handleButtonClick = () => {
+    setLoading(true);
     signInWithPopup(firebase).then(res => {
-      setLoading(true);
       const id = res.id;
       const data = {
         displayName: res.displayName,
@@ -161,7 +161,7 @@ const Events = ({ match }) => {
         )}
         {completed && (
           <Title>
-            Se confirmo tu asistencia!{" "}
+            ¡Confirmaste asistencia!{" "}
             <span role="img" aria-label="happines">
               🤙🎉🎊
             </span>
